@@ -45,3 +45,9 @@ VALUES (default, "Banco", '2018-01-20', '2021-07-28', "pedir chequera", 1, 13),(
 (default, "lavar el auto", '2018-01-20', '2021-07-28', "con las cubiertas", 1, 16),(default, "comprar el diario", '2018-01-20', '2021-07-28', "LANACION", 1, 17),
 (default, "Ir al cine", '2021-01-20', '2021-07-28', "Una de terror", 1, 18),(default, "Hacer el CV", '2018-01-20', '2021-07-28', "buscar trabajo", 0, 19),
 (default, "Llevar a los chicos al medica", '2018-01-20', '2021-07-28', "pediatra", 0, 20),(default, "hacer curso DH", '2018-01-20', '2021-07-28', "Renunciar", 0, 15);
+--carga categorias
+INSERT into categoria
+VALUES(default, "musica"),(default, "compras"),(default,"tramites"),(default,"tareas pendientes"),(default,"colegio"),(default,"peliculas"),(default, "materias"),(default,"libros"),(default,"prode mundial"),(default,"casamiento");
+--carga nota_categoria
+INSERT INTO nota_categoria
+VALUES(default,1,9),(default,2,10),(default,2,10),(default,3,11),(default,4,12),(default,5,13),(default,6,14),(default,7,15),(default,8,16),(default,9,17),(default,10,18)
